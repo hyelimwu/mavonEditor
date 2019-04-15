@@ -160,10 +160,10 @@ export const toolbar_left_click = (_type, $vm) => {
              str: '|column1|column2|column3|\n|-|-|-|\n|content1|content2|content3|\n'
          },
          'aligncenter': {
-           prefix: '::: hljs-center\n\n',
-           subfix: '\n\n:::\n',
-           str: $vm.d_words.tl_aligncenter
-         },
+            prefix: '<center>',
+            subfix: '</center>',
+            str: $vm.d_words.tl_aligncenter
+          },
          'alignright': {
            prefix: '::: hljs-right\n\n',
            subfix: '\n\n:::\n',
